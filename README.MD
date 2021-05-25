@@ -7,4 +7,6 @@ Testing: Got 1993 / 2002 with accuracy 99.55%
 
 Architecture: pretrained Googlenet
 
-https://gyazo.com/f92055a68c1f9cdd072a03dfb7cf106f for example
+https://gyazo.com/f92055a68c1f9cdd072a03dfb7cf106f use case
+
+![alt text](https://github.com/LaihoE/Anime-or-not/blob/main/normalvsanime.png?raw=true)
