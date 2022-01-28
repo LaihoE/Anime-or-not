@@ -3,7 +3,7 @@
 ```
 pip install anime-or-not
 ```
-##Useage
+## Useage
 ```python
 from anime_or_not import predict_image
 
