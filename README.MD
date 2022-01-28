@@ -1,12 +1,18 @@
-# Neural network for classifying if a picture is anime or not
+# Neural Network for classifying if images include anime
+## Installing
+```
+pip install anime-or-not
+```
+##Useage
+```python
+from anime_or_not import predict_image
 
-Trained on 100k anime pictures and 100k random pictures  
+probability = predict_image(r'C:\Users\emill\Desktop/dog.jpg')
+print(probability)
+```
 
-Training: Got 199 374 / 200 009 with accuracy 99.68%  
-Testing: Got 1993 / 2002 with accuracy 99.55%  
 
-Architecture: pretrained Googlenet
+Model has been trained on 250k anime images and 250k of other images.  
+Architecture: Effnetv2-s
 
-https://gyazo.com/f92055a68c1f9cdd072a03dfb7cf106f use case
-
-![alt text](https://github.com/LaihoE/Anime-or-not/blob/main/normalvsanime.png?raw=true)
+![alt text](https://github.com/LaihoE/Anime-or-not/blob/main/images/exampleanime.png?raw=true)
