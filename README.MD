@@ -13,6 +13,6 @@ print(probability)
 
 
 Model has been trained on 250k anime images and 250k of other images.  
-Architecture: Effnetv2-s
-
+Architecture: Effnetv2-s  
+Testing accuracy was around 98-99% (The line between anime and something else is not that clear)
 ![alt text](https://github.com/LaihoE/Anime-or-not/blob/main/images/exampleanime.png?raw=true)
