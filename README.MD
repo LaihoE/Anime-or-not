@@ -7,7 +7,7 @@ pip install anime-or-not
 ```python
 from anime_or_not import predict_image
 
-probability = predict_image(r'C:\Users\emill\Desktop/dog.jpg')
+probability = predict_image('path_to_image')
 print(probability)
 ```
 
